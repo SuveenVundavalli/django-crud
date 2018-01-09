@@ -95,4 +95,31 @@ Copy Local settings (local.py) to make new (base.py & production.py) File:
 
     python manage.py runserver
 
-That's it. All the best.
+
+----------
+## Virtualenv
+In python django it is a good practise to start a project in a new virtualenv. In step - 2 above, we created a new virtual environment. So, to start a server in virtualenv:
+
+    cd ~/Dev
+    activate bin/source
+----------
+
+
+# Apps
+## Things to do in apps
+
+ 1. Handle URL's
+ 2. Return responses
+ 3. Remember things
+
+## Creating Apps
+
+    python manage.py startapp restaurants
+## Handle URL's
+Url's can be handled in two ways. 
+ 1. Function Based
+ 2. Class Based
+
+
+
+*Credits : [cfe](www.codingforentrepreneurs.com)*
