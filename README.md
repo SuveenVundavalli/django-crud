@@ -94,3 +94,5 @@ Copy Local settings (local.py) to make new (base.py & production.py) File:
 ## 8. Run the Server
 
     python manage.py runserver
+
+That's it. All the best.
