@@ -102,6 +102,11 @@ In python django it is a good practise to start a project in a new virtualenv. I
 
     cd ~/Dev
     activate bin/source
+## Start Server
+
+    cd src
+    python manage.py runserver
+
 ----------
 
 
@@ -119,7 +124,20 @@ In python django it is a good practise to start a project in a new virtualenv. I
 Url's can be handled in two ways. 
  1. Function Based
  2. Class Based
+# Models
 
+The models.py in respective app handles models. After creating a model we need to create tables in database which is done in two steps i.e.,
+
+    python manage.py makemigrations
+    python manage.py migrate
+
+ 1. Prepare django to let database know about it i.e., prepare the changes.
+ 2. Make django tell database about it i.e., make the changes.
+
+
+
+    
 
 
 *Credits : [cfe](www.codingforentrepreneurs.com)*
+
