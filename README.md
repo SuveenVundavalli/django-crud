@@ -139,5 +139,5 @@ The models.py in respective app handles models. After creating a model we need t
     
 
 
-*Credits : [cfe](www.codingforentrepreneurs.com)*
+*Credits : [cfe](https://www.codingforentrepreneurs.com/)*
 
